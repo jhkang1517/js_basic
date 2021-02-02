@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Something</title>
+        <meta charset="utf-8">
+        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <div class="main-view">
+            <div class="top-row"></div>
+            <div class="js-clock">
+                <h1>00:00</h1>
+            </div>
+
+            <form class="js-form form">
+                <input class="greetingForm" type="text" placeholder="What is your name?">
+            </form>
+
+            <h4 class="js-greetings greetings"></h4>
+
+            <form class="js-toDoForm">
+                <input class="toDoInput" type="text" placeholder="Write a to do" />
+            </form>
+
+            <div class="toDoList-main">
+                <div class="toDoList-left"></div>
+                    <ul class="js-toDoList-Left"></ul>
+                <div>
+                    <ul class="js-toDoList"></ul>
+                </div>
+                <div class="toDoList-right"></div>
+            </div>
+            
+
+            <spanc class="js-weather"></spanc>
+
+            <!-- js는 항상 body tag 맨 아래에 적을 것-->
+            <script src="index.js"></script>
+            <script src="clock.js"></script>
+            <script src="gretting.js"></script>
+            <script src="todo.js"></script>
+            <script src="bg.js"></script>
+            <script src="weather.js"></script>
+        </div>
+    </body>
+</html>
